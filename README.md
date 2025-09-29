@@ -63,3 +63,7 @@
 - **Tailwind + Chart.js** لواجهة مستخدم جميلة وتفاعلية.
     
 - كل المزايا دي **ممكن تتعمل صفر تكلفة** → فرصة مثالية للتعلم وبناء مشاريع قوية.
+
+--- 
+
+[Next Expense Tracker — Eraser](https://app.eraser.io/workspace/XhlJP6Rdmx6nrGR0SpKz)
