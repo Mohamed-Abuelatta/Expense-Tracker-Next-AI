@@ -1,36 +1,65 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+## الفكرة العامة
 
-First, run the development server:
+- بناء **تطبيق ويب كامل (Full Stack)** لتتبع المصاريف باستخدام **Next.js 15**.
+    
+- التطبيق يستخدم **خدمات مجانية** (Neon, Clerk, OpenRouter, Vercel) بحيث يكون الإنتاجي (Production-ready) **بدون أي تكاليف**.
+    
+- مدعوم بـ **الذكاء الاصطناعي** (لتصنيف النفقات + تقديم توصيات مالية).
+    
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## التقنيات المستخدمة
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Next.js 15** (App Router + Server Actions).
+    
+- **Tailwind CSS** (التصميم والاستايل).
+    
+- **Neon PostgreSQL + Prisma** (قاعدة البيانات).
+    
+- **Clerk** (المصادقة: Google, GitHub, Email).
+    
+- **OpenRouter** (قدرات الذكاء الاصطناعي مجاناً).
+    
+- **Chart.js** (عرض البيانات والرسوم البيانية).
+    
+- **Vercel** (استضافة مجانية).
+    
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## المميزات الرئيسية للتطبيق
 
-To learn more about Next.js, take a look at the following resources:
+1. **مصادقة المستخدم** (تسجيل الدخول/الخروج عبر Google, GitHub, Email).
+    
+2. **إضافة نفقات** (الوصف + التاريخ + المبلغ + الفئة).
+    
+3. **اقتراح فئة ذكي** (الذكاء الاصطناعي يقترح نوع المصروف تلقائياً).
+    
+4. **إحصائيات ورسوم بيانية** (متوسط الصرف، أعلى وأقل مصروف، عرض تفاعلي بالألوان).
+    
+5. **رؤى مالية بالذكاء الاصطناعي** (نصائح/تحذيرات بناءً على نمط الصرف).
+    
+6. **سجل النفقات** (عرض وحذف السجلات).
+    
+7. **تصميم متجاوب** (يدعم الموبايل + الكمبيوتر، مع **الوضع الليلي/النهاري**).
+    
+8. **استضافة مجانية على Vercel** + دمج مع GitHub للتحديثات التلقائية.
+    
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## النقاط التعليمية (Takeaways)
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Next.js 15 Server Actions** تغني عن الـ API التقليدية.
+    
+- **Prisma + Neon** يسهلوا التعامل مع قواعد البيانات.
+    
+- **Clerk** يوفر مصادقة مرنة وسهلة.
+    
+- **OpenRouter** يضيف ذكاء اصطناعي مجاني بدون بطاقة ائتمان.
+    
+- **Tailwind + Chart.js** لواجهة مستخدم جميلة وتفاعلية.
+    
+- كل المزايا دي **ممكن تتعمل صفر تكلفة** → فرصة مثالية للتعلم وبناء مشاريع قوية.
